@@ -37,7 +37,6 @@ export default function Home({ allPostsData }) {
                 <br />
                 {date}
               </li>
-              <br / >
             ))}
           </ul>
         </section>

@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className={styles.title}>
           <Link href="/posts/first-post">
           <a>First post!</a>
-          </link>
+          </Link>
         </h1>
 
         <p className={styles.description}>

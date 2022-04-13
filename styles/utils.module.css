@@ -33,13 +33,13 @@
 
 .list {
   list-style: none;
-  padding: 0;
+  padding: 1px;
   margin: 0;
 }
 
 .listitem {
-  padding: 2px;
-  margin: 0 0 1.25rem;
+  padding: 8px;
+  margin: 0 0 2rem;
 }
 
 .lightText {

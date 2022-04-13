@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
+import fs from 'fs'
+import path from 'path'
+import matter from 'gray-matter'
 import { getSortedPostsData } from '../lib/posts'
 
 export async function getStaticProps() {

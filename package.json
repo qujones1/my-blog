@@ -12,7 +12,8 @@
     "react-dom": "18.0.0",
     "gray-matter":"^4.0.3",
     "path":"^0.12.7",
-    "fs":"^0.0.2"
+    "fs":"^0.0.2",
+    "remark":"^14.0.2"
   },
   "devDependencies": {
     "eslint": "8.12.0",

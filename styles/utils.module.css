@@ -19,7 +19,7 @@
   line-height: 1.5;
 }
 
-borderCircle {
+.borderCircle {
   border-radius: 9999px;
 }
 

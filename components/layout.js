@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
+import {utilStyles, bgWrap} from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Quentin Jones'
@@ -30,8 +30,8 @@ export default function Layout({ children, home }) {
           <>
             <div className={bgWrap}>
               <Image
-                alt="Mountains"
-                src="/mountains.jpg"
+                alt="Jp Art"
+                src="bg,jfif"
                 layout="fill"
                 objectFit="cover"
                 quality={100}

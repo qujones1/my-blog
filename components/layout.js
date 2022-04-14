@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
           <>
             <div className={bgWraps}>
               <Image
-                alt="Jp Art"
+                alt="JpArt"
                 src="bg.jfif"
                 layout="fill"
                 objectFit="cover"

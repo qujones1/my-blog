@@ -28,6 +28,15 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
+            <div className={bgWrap}>
+              <Image
+                alt="Mountains"
+                src="/mountains.jpg"
+                layout="fill"
+                objectFit="cover"
+                quality={100}
+              />
+            </div>
             <Image
               priority
               src="picture.jfif"

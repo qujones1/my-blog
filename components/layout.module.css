@@ -14,3 +14,10 @@
   margin: 3rem 0 0;
 }
 
+.bgWraps {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1;
+}

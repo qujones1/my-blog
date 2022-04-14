@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="https://media-exp1.licdn.com/dms/image/C4D03AQG6UNXEmTGhKg/profile-displayphoto-shrink_200_200/0/1596772917085?e=1655337600&v=beta&t=ovZU90JoQunTiyrwLVK4zwqADVJ2zNrnxe81nmq96Dk"
+              src="picture.jfif"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -44,7 +44,7 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="https://media-exp1.licdn.com/dms/image/C4D03AQG6UNXEmTGhKg/profile-displayphoto-shrink_200_200/0/1596772917085?e=1655337600&v=beta&t=ovZU90JoQunTiyrwLVK4zwqADVJ2zNrnxe81nmq96Dk"
+                  src="picture.jfif"
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
